@@ -10,12 +10,13 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
+      <SpeedInsights/>
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>NEXT js surhaar oroldoj bn</p>
+        <p>NEXT js surhaar oroldoj bn!</p>
         <p>
-          (NEXT js surhaar oroldoj bn- you’ll be building a site like this in{' '}
+          (This is a sample website - you’ll be building a site like this in{' '}
           <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
         </p>
       </section>
